@@ -8,10 +8,17 @@ export default {
     fontFamily: {
       display: ["Poppins", "sans-serif"],
     },
+
     extend: {
       //colors used in the project
-      primary: "#05B6D3",
-      secondary: "EF863E",
+      color: {
+        primary: "#05B6D3",
+        secondary: "EF863E",
+      },
+      backgroundImage: {
+        'login-bg-img': "url('./src/assets/images/bg-login-image.jpg')",
+        'signup-bg-img': "url('./src/assets/images/signup-bg-image.jpg')",
+      }
     },
   },
   plugins: [],
