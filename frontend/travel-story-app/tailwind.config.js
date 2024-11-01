@@ -8,12 +8,12 @@ export default {
     fontFamily: {
       display: ["Poppins", "sans-serif"],
     },
-
     extend: {
-      //colors used in the project
-      color: {
+      // Sửa "color" thành "colors"
+      colors: {
         primary: "#05B6D3",
-        secondary: "EF863E",
+        // Thêm dấu # cho mã màu secondary
+        secondary: "#EF863E",
       },
       backgroundImage: {
         'login-bg-img': "url('./src/assets/images/bg-login-image.jpg')",
@@ -23,4 +23,3 @@ export default {
   },
   plugins: [],
 }
-
